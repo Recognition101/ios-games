@@ -1,0 +1,94 @@
+body { margin: 0; }
+* {
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+               "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.games, .games-container {
+    position: relative;
+    width: 680px;
+    margin: auto;
+}
+
+.games-row {
+    margin: 0;
+}
+
+.games-row > * {
+    display: inline-block;
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 8px;
+    border: 1px solid grey;
+    border-width: 0 1px 1px 0;
+
+    width: 80px;
+    height: 50px;
+
+    vertical-align: top;
+}
+
+.games-row > :first-child {
+    width: 200px;
+    border-left: 1px solid grey;
+    background-color: rgba(240,240,240, 0.7);
+}
+
+.games-check {
+    text-align: center;
+    padding-top: 16px;
+}
+
+.games-check-true {
+    background-color: rgb(200, 255, 200);
+}
+
+.games-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(240,240,240,0.7);
+    text-align: center;
+    cursor: pointer;
+    color: rgb(0, 122, 255);
+}
+
+.games-header > * {
+    padding-top: 15px;
+}
+
+.games-header-sort {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 122, 255);
+}
+
+@media only screen 
+  and (max-width: 500px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    * {
+        font-size: 12px;
+    }
+    .games-header > * {
+        margin: 0;
+        padding: 10px 0 0 0;
+    }
+    .games, .games-container {
+        width: 410px;
+    }
+    .games-row > * {
+        width: 45px;
+    }
+    .games-row > :first-child {
+        width: 140px;
+    }
+}
