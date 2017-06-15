@@ -1,0 +1,25 @@
+{
+  "name": "ios-games",
+  "description": "A list of my iOS games and features they support.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Recognition101/ios-games",
+  "keywords": [
+    "iOS",
+    "games",
+    "apps",
+    "features",
+    "iCloud",
+    "MFI"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Recognition101/ios-games"
+  },
+  "author": { "name": "Recognition101" },
+  "main": "script.js",
+  "engines": {
+    "node": ">= 7.10.x"
+  },
+  "dependencies": {
+  }
+}
