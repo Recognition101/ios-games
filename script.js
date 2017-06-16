@@ -69,7 +69,7 @@ const redraw = (header, data, sortColumn, sortDirection) => {
 fetch('./data.csv')
 .then(resp => resp.text())
 .then(text => {
-    let sortColumn = 3;
+    let sortColumn = 4;
     let sortDirection = false;
 
     const csv = text.split('\n').map(line => 
@@ -87,11 +87,12 @@ fetch('./data.csv')
         const parent = target.parentElement;
         if (parent.classList.contains('games-header')) {
             const newColumn = [...parent.childNodes].indexOf(target);
-            sortDirection = newColumn === sortColumn ? !sortDirection : true;
+            sortDirection = newColumn === sortColumn ? !sortDirection : false;
             sortColumn = newColumn;
 
             data.sort((a, b) => (sortDirection ? 1 : -1) *
-                                (a[sortColumn] < b[sortColumn] ? -1 : 1));
+                                (a[sortColumn] === b[sortColumn] ?  0 :
+                                 a[sortColumn] <   b[sortColumn] ? -1 : 1));
             
             redraw(header, data, sortColumn, sortDirection);
         }
