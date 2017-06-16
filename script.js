@@ -12,7 +12,8 @@ const makeHeader = (data, sortColumn, sortDirection) => {
         const cell = document.createElement('div');
         if (i === sortColumn) {
             cell.classList.add('games-header-sort');
-            cellText += sortDirection ? '<br/>&#8679;' : '<br/>&#8681;';
+            cellText += i === 0 ? '' : '<br/>';
+            cellText += sortDirection ? '&#8679;' : '&#8681;';
         }
         cell.innerHTML = cellText;
         row.appendChild(cell);
@@ -39,7 +40,7 @@ const makeRow = data => {
         const cell = document.createElement('dd');
         const check = cellText.toLowerCase();
         cell.classList.add('games-check', 'games-check-' + check);
-        cell.innerHTML = check === 'true' ? '&#10004;' : '&nbsp;';
+        cell.innerHTML = check === 'true' ? '<span>&#10004;</span>' : '&nbsp;';
         row.appendChild(cell);
     });
     return row;
