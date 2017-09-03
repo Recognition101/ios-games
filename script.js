@@ -1,100 +1,129 @@
-const itunesUrl = 'https://itunes.apple.com/us/app/';
-
-/**
- * @param {Array<string>} data 
- * @param {number} sortColumn
- * @param {boolean} sortDirection
- */
-const makeHeader = (data, sortColumn, sortDirection) => {
-    const row = document.createElement('div');
-    row.classList.add('games-row', 'games-header');
-    data.slice(0, -1).forEach((cellText, i) => {
-        const cell = document.createElement('div');
-        if (i === sortColumn) {
-            cell.classList.add('games-header-sort');
-            cellText += i === 0 ? '' : '<br/>';
-            cellText += sortDirection ? '&#8679;' : '&#8681;';
-        }
-        cell.innerHTML = cellText;
-        row.appendChild(cell);
-    });
-    return row;
+const urls = {
+    itunes: 'https://itunes.apple.com/us/app/',
+    img: 'http://cdn.appshopper.com/icons/'
 };
 
 /**
- * @param {Array<string>} data 
+ * @typedef {Object} Game
+ * @prop {string} name
+ * @prop {string} id 
+ * @prop {string} itunesUrl
+ * @prop {string} imgUrl
+ * @prop {Array<boolean>} features
+ */
+
+/**
+ * @typedef {Element|string} Child
+ * 
+ * @param {string} tag 
+ * @param {{[name: string]: string}} attrs 
+ * @param {Array<Child>|Child} children 
  * @return {Element}
  */
-const makeRow = data => {
-    const row = document.createElement('dl');
-    row.classList.add('games-row');
+const h = (tag, attrs, children=[]) => {
+    const tagData = tag.match(/(^|[#.])[^#.]*/g) || [];
+    const el = document.createElement(tagData.shift());
+    tagData.forEach(str =>
+        str[0] === '.' ? el.classList.add(str.substr(1)) :
+        str[0] === '#' ? el.setAttribute('id', str.substr(1)) : '');
 
-    const name = document.createElement('dt');
-    const link = document.createElement('a');
-    link.innerHTML = data[0];
-    link.href = itunesUrl + data[data.length - 1];
-    name.appendChild(link);
-    row.appendChild(name);
+    Object.entries(attrs).forEach(([name, value]) => el[name] = value);
 
-    data.slice(1,-1).forEach(cellText => {
-        const cell = document.createElement('dd');
-        const check = cellText.toLowerCase();
-        cell.classList.add('games-check', 'games-check-' + check);
-        cell.innerHTML = check === 'true' ? '<span>&#10004;</span>' : '&nbsp;';
-        row.appendChild(cell);
-    });
-    return row;
+    const kids = children instanceof Array ? children : [ children ];
+
+    kids.forEach(kid => (typeof kid === 'string' || kid instanceof String)
+        ? el.appendChild(document.createTextNode(kid))
+        : el.appendChild(kid));
+
+    return el;
 };
 
 /**
- * Makes a DOM Table from CSV data.
- * @param {Array<string>} header
- * @param {Array<Array<string>>} data 
- * @param {number} sortColumn
- * @param {boolean} sortDirection
+ * 
+ * @param {Array<boolean>} featureSet 
+ * @param {Array<string>} featureNames 
+ * @return {string}
  */
-const redraw = (header, data, sortColumn, sortDirection) => {
-    const container = document.createElement('div');
-    container.classList.add('games');
-
-
-    container.appendChild(makeHeader(header, sortColumn, sortDirection));
-    data.forEach(row => container.appendChild(makeRow(row)));
-
-    const mount = document.getElementById('games-container');
-    mount.innerHTML = '';
-    mount.appendChild(container);
+const getFeatureDesc = (featureSet, featureNames) => {
+    return featureSet.reduce((str, feature, i) => {
+        const featureName = (str ? '' : ' ') + featureNames[i];
+        return str + (feature ? featureName : '');
+    }, '');
 };
 
-fetch('./data.csv')
-.then(resp => resp.text())
-.then(text => {
-    let sortColumn = 4;
-    let sortDirection = false;
+/**
+ * @param {Array<Game>} games
+ * @param {Array<boolean>} featureSet 
+ * @param {Array<boolean>} doMatch
+ * @param {Array<string>} featureNames
+ * @return {Element}
+ */
+const createFolder = (games, featureSet, doMatch, featureNames) => {
+    const matches = games.filter(game =>
+        game.features.reduce((accept, feature, i) =>
+            accept && (!doMatch[i] || (feature === featureSet[i])),
+        true)
+    ).sort((a, b) => {
+        const sumFeatures = (total, feature) => total + (feature ? 1 : 0);
+        const aFeatures = a.features.reduce(sumFeatures, 0);
+        const bFeatures = b.features.reduce(sumFeatures, 0);
 
-    const csv = text.split('\n').map(line => 
+        return bFeatures - aFeatures;
+    });
+
+    return h('div.games-folder', {}, [
+        h('h2', {}, getFeatureDesc(featureSet, featureNames)),
+        h('ul.games-list', {}, matches.map(game => h('li', {}, [
+            h('div.games-list-features', {},
+                getFeatureDesc(game.features, featureNames)),
+            h('a', { href: game.itunesUrl }, h('img', {src: game.imgUrl})),
+            h('h3', {}, h('a', { href: game.itunesUrl }, game.name))
+        ])))
+    ]);
+};
+
+/**
+ * Sets up the application.
+ * @param {string} csvText the text of the CSV games file
+ */
+const main = csvText => {
+    const isTextTrue = v => v.toLocaleLowerCase() === 'true';
+
+    const csv = csvText.split('\n').map(line => 
         line.match(/"[^"]*"|[^,]+/g)
             .map(item => item.replace(/^"|"$/g, ''))
     );
-    const header = csv[0];
-    const data = csv.slice(1);
 
-    redraw(header, data, sortColumn, sortDirection);
+    const key = csv.shift();
+    const featureNames = key.slice(1, -1);
 
-    const mount = document.getElementById('games-container');
-    mount.addEventListener('click', ({target}) => {
-        /** @type {Element} */
-        const parent = target.parentElement;
-        if (parent.classList.contains('games-header')) {
-            const newColumn = [...parent.childNodes].indexOf(target);
-            sortDirection = newColumn === sortColumn ? !sortDirection : false;
-            sortColumn = newColumn;
+    /** @type {Array<Game>} */
+    const games = csv.map(row => {
+        const name      = row[0];
+        const id        = row[row.length - 1];
+        const imgName   = id.substr(2, 3) + '/' + id.substr(5) + '_larger.png';
+        const itunesUrl = urls.itunes + id;
+        const imgUrl    = urls.img + imgName;
+        const features  = row.slice(1, -1).map(isTextTrue);
 
-            data.sort((a, b) => (sortDirection ? 1 : -1) *
-                                (a[sortColumn] === b[sortColumn] ?  0 :
-                                 a[sortColumn] <   b[sortColumn] ? -1 : 1));
-            
-            redraw(header, data, sortColumn, sortDirection);
-        }
+        return { id, name, itunesUrl, imgUrl, features };
     });
-});
+
+    const featureSets = [0, 1, 2, 3, 4, 5, 6, 7].map(x => [
+        false, false, false, (x & 4) === 0, (x & 2) === 0, (x & 1) === 0, false
+    ]);
+
+    const folders = document.getElementById('games-folders');
+
+    featureSets.forEach(featureSet => {
+        const folder = createFolder(games, featureSet, [
+            false, false, false, true, true, true, false
+        ], featureNames);
+
+        folders.appendChild(folder);
+    });
+};
+
+fetch('./data.csv')
+    .then(resp => resp.text())
+    .then(main);
