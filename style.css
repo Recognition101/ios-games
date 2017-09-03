@@ -94,6 +94,7 @@ h1 {
     pointer-events: none;
     opacity: 0;
     transition: opacity 500ms ease 0s, top 500ms ease 0s;
+    z-index: 2;
 }
 .games-list li:hover .games-list-features {
     transition: opacity 500ms ease 1s, top 500ms ease 1s;
