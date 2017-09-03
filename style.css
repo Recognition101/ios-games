@@ -4,76 +4,161 @@ body { margin: 0; }
                Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
                "Segoe UI Emoji", "Segoe UI Symbol";
 }
-a, .games-header {
+a {
     text-decoration: none;
     color: rgb(0, 122, 255);
 }
 
-
-/**** Grid Sizing ****/
-
-.games, .games-container {
-    position: relative;
-    margin: auto;
-    max-width: 600px; 
+h1 {
+    font-size: 50px;
+    margin: 20px;
 }
-.games-header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
 
+.games-intro {
+    margin: 30px 20px;
+    max-width: 700px;
+
+    line-height: 1.8em;
+}
+
+.games-key {
+    margin: 20px;
+    max-width: 400px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.games-key td:first-child {
+    text-align: center;
+}
+.games-key td {
+    border: 1px solid #CCC;
+    padding: 5px;
+}
+
+.games-folder {
+    margin: 40px;
+    padding: 10px;
+
+    background-color: #EEE;
+    border-radius: 20px;
+}
+
+.games-folder h2 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(238, 238, 238, 0.8);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    font-size: 40px;
     text-align: center;
-    cursor: pointer;
+    letter-spacing: 15px;
+    z-index: 1;
 }
-.games-header > :first-child {
-    font-weight: bold;
-    padding-top: 15px;
-}
-.games-row {
-    display: flex;
-    margin: 0;
-}
-.games-row > :first-child {
-    flex: 1;
-    padding: 8px;
-    border-left-width: 1px;
-    text-align: right;
-}
-.games-row > * {
-    display: inline-block;
-    box-sizing: border-box;
 
+.games-list {
     margin: 0;
     padding: 0;
-    border-style: solid;
-    border-width: 0 1px 1px 0;
+
+    list-style: none;
+    text-align: center;
+}
+
+.games-list img {
+    width: 80px;
+}
+
+.games-list li {
+    display: inline-block;
+    width: 100px;
+    margin: 10px;
+    position: relative;
 
     vertical-align: top;
-}
-.games-check {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
+.games-list-features {
+    position: absolute;
+    top: -65px;
+    left: 0;
 
-/**** Grid Colors ****/
+    height: 60px;
 
-.games-header { background-color: rgba(255,255,255,0.6); }
-.games-row > *                               { border-color: #CCC; }
-.games-row:nth-child(2n)                     { background-color: #F8F8F8; }
-.games-row:nth-child(2n) > .games-check-true { background-color: #D8F8D8; }
-.games-row > .games-check-true               { background-color: #E8FFE8; }
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    background-color: white;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 500ms ease 0s, top 500ms ease 0s;
+}
+.games-list li:hover .games-list-features {
+    transition: opacity 500ms ease 1s, top 500ms ease 1s;
+    opacity: 1;
+    top: -70px;
+}
 
+.games-list li h3 {
+    margin: 5px 0;
 
-/**** Desktop vs Mobile Sizing ****/
-
-* { font-size: 16px; }
-.games-row > :not(:first-child) { width: 40px; }
+    font-size: 16px;
+    font-weight: normal;
+}
 
 @media only screen and (max-width: 500px) {
-    * { font-size: 14px; }
-    .games-row > :not(:first-child) { width: 30px; }
+    h1 {
+        font-size: 30px;
+    }
+    .games-folder {
+        margin: 5px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .games-list li {
+        margin: 5px;
+        width: 60px;
+    }
+    .games-list img {
+        width: 50px;
+    }
+    .games-list li h3 {
+        margin: 5px 0;
+        font-size: 10px;
+    }
+    .games-list-features {
+        font-size: 12px;
+    }
+}
+
+
+/**** Arrow for feature lists ****/
+
+.games-list-features:after, .games-list-features:before {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    
+    border: solid transparent;
+    height: 0;
+    width: 0;
+
+    pointer-events: none;
+}
+.games-list-features:after {
+    border-width: 10px;
+    margin-left: -10px;
+
+    border-color: rgba(0, 0, 0, 0);
+    border-top-color: #fff;
+}
+.games-list-features:before {
+    border-width: 11px;
+    margin-left: -11px;
+
+    border-color: rgba(0, 0, 0, 0);
+    border-top-color: #CCC;
 }
