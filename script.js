@@ -83,6 +83,61 @@ const createFolder = (games, featureSet, doMatch, featureNames) => {
 };
 
 /**
+ * 
+ * @param {Array<Game>} games 
+ * @param {Array<string>} featureNames 
+ * @return {Element}
+ */
+const createFilter = (games, featureNames) => {
+    const folders = document.getElementById('games-folders');
+
+    const button = h('button', {}, 'Add List Below');
+
+    const opts = h('div.games-filter#games-filter', {}, [
+        h('h2', {}, 'Add Filtered List'),
+        h('ul', {}, featureNames.map(name =>
+            h('li', {}, [
+                name,
+                h('label', {}, [
+                    h('input', { type: 'radio', name, value: 'y' }),
+                    'Yes'
+                ]),
+                h('label', {}, [
+                    h('input', { type: 'radio', name, value: 'n' }),
+                    'No'
+                ]),
+                h('label', {}, [
+                    h('input', {
+                        name,
+                        value: 'e',
+                        type: 'radio',
+                        checked: 'checked'
+                    }),
+                    'Either'
+                ])
+            ])
+        )),
+        button
+    ]);
+
+    button.addEventListener('click', () => {
+        const lis = Array.from(opts.querySelectorAll('li'));
+        const feature = lis.map(e => e.querySelector(':checked').value === 'y');
+        const doMatch = lis.map(e => e.querySelector(':checked').value !== 'e');
+
+        const either = Array.from(opts.querySelectorAll('[value=e]'));
+        either.forEach(radio => radio.checked = 'checked');
+
+        const folder = createFolder(games, feature, doMatch, featureNames);
+        folders.appendChild(folder);
+
+        window.scrollTo(0, document.body.scrollHeight - folder.offsetHeight);
+    });
+
+    return opts;
+};
+
+/**
  * Sets up the application.
  * @param {string} csvText the text of the CSV games file
  */
@@ -109,11 +164,11 @@ const main = csvText => {
         return { id, name, itunesUrl, imgUrl, features };
     });
 
+    const folders = document.getElementById('games-folders');
+
     const featureSets = [0, 1, 2, 3, 4, 5, 6, 7].map(x => [
         false, false, false, (x & 4) === 0, (x & 2) === 0, (x & 1) === 0, false
     ]);
-
-    const folders = document.getElementById('games-folders');
 
     featureSets.forEach(featureSet => {
         const folder = createFolder(games, featureSet, [
@@ -122,6 +177,8 @@ const main = csvText => {
 
         folders.appendChild(folder);
     });
+
+    folders.appendChild(createFilter(games, featureNames));
 };
 
 fetch('./data.csv')
