@@ -36,7 +36,8 @@ h1 {
     padding: 5px;
 }
 
-.games-folder {
+.games-folder,
+.games-filter {
     margin: 40px;
     padding: 10px;
 
@@ -110,11 +111,53 @@ h1 {
     font-weight: normal;
 }
 
+.games-filter {
+    margin: 10px auto 40px auto;
+    max-width: 300px;
+    text-align: center;
+}
+
+.games-filter h2 {
+    text-align: center;
+}
+
+.games-filter ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.games-filter li {
+    padding: 10px 0;
+    border-bottom: 1px solid #FFF;
+
+    text-align: center;
+}
+.games-filter li:last-child {
+    border: 0;
+}
+
+.games-filter li label {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.games-filter li input {
+    position: relative;
+    top: -2px;
+    left: -2px;
+}
+
+.games-filter button {
+    font-size: 13px;
+}
+
 @media only screen and (max-width: 500px) {
     h1 {
         font-size: 30px;
     }
-    .games-folder {
+    .games-folder,
+    .games-filter {
         margin: 5px;
         padding: 5px;
         border-radius: 10px;
