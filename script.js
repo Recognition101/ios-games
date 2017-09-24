@@ -95,42 +95,66 @@ const createFilter = (games, featureNames) => {
 
     const opts = h('div.games-filter#games-filter', {}, [
         h('h2', {}, 'Add Filtered List'),
+        h('h3', {}, 'Must Support:'),
         h('ul', {}, featureNames.map(name =>
             h('li', {}, [
-                name,
-                h('label', {}, [
-                    h('input', { type: 'radio', name, value: 'y' }),
-                    'Yes'
-                ]),
-                h('label', {}, [
-                    h('input', { type: 'radio', name, value: 'n' }),
-                    'No'
-                ]),
                 h('label', {}, [
                     h('input', {
-                        name,
-                        value: 'e',
                         type: 'radio',
-                        checked: 'checked'
+                        name: 'filter-' + name,
+                        value: 'y'
                     }),
-                    'Either'
+                    name
                 ])
             ])
         )),
+        h('h3', {}, 'Must NOT Support:'),
+        h('ul', {}, featureNames.map(name =>
+            h('li', {}, [
+                h('label', {}, [
+                    h('input', {
+                        type: 'radio',
+                        name: 'filter-' + name,
+                        value: 'n'
+                    }),
+                    name
+                ])
+            ])
+        )),
+        h('h3', {}, 'Unimportant:'),
+        h('ul', {}, featureNames.map(name =>
+            h('li', {}, [
+                h('label', {}, [
+                    h('input', {
+                        type: 'radio',
+                        name: 'filter-' + name,
+                        value: 'e',
+                        checked: 'checked'
+                    }),
+                    name
+                ])
+            ])
+        )),
+
         button
     ]);
 
     button.addEventListener('click', () => {
-        const lis = Array.from(opts.querySelectorAll('li'));
-        const feature = lis.map(e => e.querySelector(':checked').value === 'y');
-        const doMatch = lis.map(e => e.querySelector(':checked').value !== 'e');
+        const lists = Array.from(opts.querySelectorAll('ul'));
 
+        const yes = Array.from(lists[0].querySelectorAll('input'))
+            .map(input => !!input.checked);
+
+        const match = Array.from(lists[2].querySelectorAll('input'))
+            .map(input => !input.checked);
+
+        // reset default check values
         const either = Array.from(opts.querySelectorAll('[value=e]'));
         either.forEach(radio => radio.checked = 'checked');
 
-        const folder = createFolder(games, feature, doMatch, featureNames);
+        // create filtered folder and scroll to it
+        const folder = createFolder(games, yes, match, featureNames);
         folders.appendChild(folder);
-
         window.scrollTo(0, document.body.scrollHeight - folder.offsetHeight);
     });
 
