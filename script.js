@@ -67,8 +67,9 @@ const createFolder = (games, featureSet, doMatch, featureNames) => {
         const sumFeatures = (total, feature) => total + (feature ? 1 : 0);
         const aFeatures = a.features.reduce(sumFeatures, 0);
         const bFeatures = b.features.reduce(sumFeatures, 0);
+        const nameDiff  = b.name < a.name ? 1 : (b.name > a.name ? -1 : 0)
 
-        return bFeatures - aFeatures;
+        return (bFeatures - aFeatures) || nameDiff;
     });
 
     return h('div.games-folder', {}, [
