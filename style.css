@@ -78,6 +78,7 @@ h3 {
 
 .games-list img {
     width: 80px;
+    border-radius: 18px;
 }
 
 .games-list li {
@@ -197,7 +198,7 @@ h3 {
     position: absolute;
     top: 100%;
     left: 50%;
-    
+
     border: solid transparent;
     height: 0;
     width: 0;
