@@ -1,12 +1,12 @@
 const urls = {
     itunes: 'https://itunes.apple.com/us/app/',
-    img: 'http://cdn.appshopper.com/icons/'
+    img: './images/'
 };
 
 /**
  * @typedef {Object} Game
  * @prop {string} name
- * @prop {string} id 
+ * @prop {string} id
  * @prop {string} itunesUrl
  * @prop {string} imgUrl
  * @prop {Array<boolean>} features
@@ -14,10 +14,10 @@ const urls = {
 
 /**
  * @typedef {Element|string} Child
- * 
- * @param {string} tag 
- * @param {{[name: string]: string}} attrs 
- * @param {Array<Child>|Child} children 
+ *
+ * @param {string} tag
+ * @param {{[name: string]: string}} attrs
+ * @param {Array<Child>|Child} children
  * @return {Element}
  */
 const h = (tag, attrs, children=[]) => {
@@ -39,9 +39,9 @@ const h = (tag, attrs, children=[]) => {
 };
 
 /**
- * 
- * @param {Array<boolean>} featureSet 
- * @param {Array<string>} featureNames 
+ *
+ * @param {Array<boolean>} featureSet
+ * @param {Array<string>} featureNames
  * @return {string}
  */
 const getFeatureDesc = (featureSet, featureNames) => {
@@ -53,7 +53,7 @@ const getFeatureDesc = (featureSet, featureNames) => {
 
 /**
  * @param {Array<Game>} games
- * @param {Array<boolean>} featureSet 
+ * @param {Array<boolean>} featureSet
  * @param {Array<boolean>} doMatch
  * @param {Array<string>} featureNames
  * @return {Element}
@@ -84,9 +84,9 @@ const createFolder = (games, featureSet, doMatch, featureNames) => {
 };
 
 /**
- * 
- * @param {Array<Game>} games 
- * @param {Array<string>} featureNames 
+ *
+ * @param {Array<Game>} games
+ * @param {Array<string>} featureNames
  * @return {Element}
  */
 const createFilter = (games, featureNames) => {
@@ -169,7 +169,7 @@ const createFilter = (games, featureNames) => {
 const main = csvText => {
     const isTextTrue = v => v.toLocaleLowerCase() === 'true';
 
-    const csv = csvText.split('\n').map(line => 
+    const csv = csvText.split('\n').map(line =>
         line.match(/"[^"]*"|[^,]+/g)
             .map(item => item.replace(/^"|"$/g, ''))
     );
@@ -181,9 +181,8 @@ const main = csvText => {
     const games = csv.map(row => {
         const name      = row[0];
         const id        = row[row.length - 1];
-        const imgName   = id.substr(2, 3) + '/' + id.substr(5) + '_larger.png';
         const itunesUrl = urls.itunes + id;
-        const imgUrl    = urls.img + imgName;
+        const imgUrl    = urls.img + id + '.jpg';
         const features  = row.slice(1, -1).map(isTextTrue);
 
         return { id, name, itunesUrl, imgUrl, features };
