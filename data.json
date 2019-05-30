@@ -1,0 +1,1937 @@
+{
+  "382991304": {
+    "name": "Osmos",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "387428400": {
+    "name": "Infinity Blade",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "396409104": {
+    "name": "A.C.E.S.",
+    "phone": true,
+    "pad": true
+  },
+  "396669943": {
+    "name": "Death Worm",
+    "phone": true,
+    "pad": true,
+    "mfi": true
+  },
+  "406432450": {
+    "name": "Last Fish",
+    "phone": true,
+    "pad": true,
+    "tv": true
+  },
+  "424912055": {
+    "name": "Superbrothers: Sword & Sworcery EP",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "444844790": {
+    "name": "Scribblenauts",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "447689011": {
+    "name": "Infinity Blade II",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "449069244": {
+    "name": "Bean’s Quest",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "449735650": {
+    "name": "Where’s My Water?",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "450542233": {
+    "name": "Cut the Rope: Experiments",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "453873865": {
+    "name": "Vertex Blaster",
+    "phone": true,
+    "pad": true,
+    "mfi": true
+  },
+  "455112100": {
+    "name": "Edge Extended",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "459189186": {
+    "name": "Machinarium",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "479431697": {
+    "name": "Chrono Trigger",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "493536432": {
+    "name": "Hundreds",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "498136115": {
+    "name": "Flight Control Rocket",
+    "phone": true,
+    "pad": true,
+    "cloud": true
+  },
+  "499125840": {
+    "name": "Swordigo",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "509211987": {
+    "name": "Inferno+",
+    "phone": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "509213094": {
+    "name": "Slydris",
+    "phone": true,
+    "cloud": true
+  },
+  "520762327": {
+    "name": "Little Things",
+    "phone": true,
+    "pad": true,
+    "cloud": true
+  },
+  "529826126": {
+    "name": "OLO",
+    "phone": true,
+    "pad": true,
+    "multi": true
+  },
+  "535176909": {
+    "name": "BADLAND",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "537773100": {
+    "name": "Bastion",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "548580856": {
+    "name": "Slayin",
+    "phone": true,
+    "pad": true
+  },
+  "549027629": {
+    "name": "Super Hexagon",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
+  },
+  "549361775": {
+    "name": "Time Surfer",
+    "phone": true,
+    "pad": true,
+    "cloud": true
+  },
+  "552039496": {
+    "name": "The Room",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "552227993": {
+    "name": "The Executive",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "555916407": {
+    "name": "Year Walk",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "570510529": {
+    "name": "Spaceteam",
+    "phone": true,
+    "pad": true
+  },
+  "584927317": {
+    "name": "Warbits",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "multi": true
+  },
+  "591696651": {
+    "name": "Gesundheit!",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "596677177": {
+    "name": "Worms 3",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "multi": true
+  },
+  "608707318": {
+    "name": "Impossible Road",
+    "phone": true,
+    "pad": true
+  },
+  "608899141": {
+    "name": "Cut the Rope: Time Travel",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "610003290": {
+    "name": "Infinity Blade III",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "625411864": {
+    "name": "Sproggiwood",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
+  },
+  "627879091": {
+    "name": "Sorcery!",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "634235735": {
+    "name": "Duet",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "640364616": {
+    "name": "Terraria",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true,
+    "multi": true
+  },
+  "656951157": {
+    "name": "Limbo",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "662053009": {
+    "name": "Bonza",
+    "phone": true,
+    "pad": true,
+    "cloud": true
+  },
+  "663547503": {
+    "name": "Rymdkapsel",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "667362389": {
+    "name": "The Room Two",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
+  "680366065": {
+    "name": "DEVICE 6",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "681814050": {
+    "name": "Cut the Rope 2",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "687888390": {
+    "name": "République",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "691102150": {
+    "name": "Octagon",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true
+  },
+  "708196645": {
+    "name": "Oceanhorn",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "710724007": {
+    "name": "Kami",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "714789890": {
+    "name": "Yuri",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "mfi": true,
+    "ends": true
+  },
+  "719401490": {
+    "name": "Final Fantasy 6",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "728293409": {
+    "name": "Monument Valley",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "730030512": {
+    "name": "Neon Shadow",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
+  },
+  "731645633": {
+    "name": "Hitman GO",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "ends": true
+  },
+  "736683061": {
+    "name": "A Dark Room",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "739002910": {
+    "name": "Hyper Square",
+    "phone": true,
+    "pad": true
+  },
+  "742625884": {
+    "name": "Blek",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "774751518": {
+    "name": "Beat Buddy",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "775888026": {
+    "name": "Shadowmatic",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "ends": true
+  },
+  "789356890": {
+    "name": "AG Drive",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "mfi": true,
+    "ends": true
+  },
+  "791286984": {
+    "name": "Magnetized",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "808296431": {
+    "name": "Crashlands",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "816440018": {
+    "name": "Card City Nights",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "830544402": {
+    "name": "Leo’s Fortune",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "833951143": {
+    "name": "FTL",
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "834240887": {
+    "name": "oO",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "834315918": {
+    "name": "Space Marshals",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "835098788": {
+    "name": "Mos Speedrun 2",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "837860959": {
+    "name": "Mini Metro",
+    "phone": true,
+    "pad": true,
+    "cloud": true
+  },
+  "849095637": {
+    "name": "Thomas Was Alone",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "850089184": {
+    "name": "2-bit Cowboy",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
+  },
+  "857555369": {
+    "name": "Wayward Souls",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "868692227": {
+    "name": "Goat Simulator",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
+  },
+  "870322730": {
+    "name": "Implosion",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "870693951": {
+    "name": "JoyJoy",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
+  },
+  "876025489": {
+    "name": "Fluid SE",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
+  },
+  "880645949": {
+    "name": "VVVVVV",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "881270303": {
+    "name": "XCOM",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
+  "883602033": {
+    "name": "Heroki",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "886565180": {
+    "name": "Framed",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "887649233": {
+    "name": "Broken Age",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
+  "887878083": {
+    "name": "Back to Bed",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "mfi": true,
+    "ends": true
+  },
+  "888166669": {
+    "name": "Inferno 2",
+    "phone": true,
+    "mfi": true,
+    "ends": true
+  },
+  "891716357": {
+    "name": "8bit Doves",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "893923668": {
+    "name": "Dungeon of the Endless",
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "895726517": {
+    "name": "GREG",
+    "phone": true,
+    "pad": true
+  },
+  "895869909": {
+    "name": "The Sailor’s Dream",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "895875773": {
+    "name": "Halo: Spartan Assault",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
+  },
+  "900120847": {
+    "name": "Xibalba",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "901419372": {
+    "name": "Super Crossfire",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "904207373": {
+    "name": "Lines",
+    "phone": true,
+    "pad": true
+  },
+  "905488045": {
+    "name": "Goblin Sword",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "909195466": {
+    "name": "Last Voyage",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "909730184": {
+    "name": "Leap of Fate",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
+  },
+  "913483313": {
+    "name": "Quetzlcoatl",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "917463360": {
+    "name": "Geometry Wars",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "918054748": {
+    "name": "The Room Three",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
+  "920825208": {
+    "name": "Twisty Hollow",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "921852522": {
+    "name": "Bean Dreams",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "922587565": {
+    "name": "Mighty Switch Force! Hose it Down!",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "923555295": {
+    "name": "Oddworld: Stranger’s Wrath",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "923760656": {
+    "name": "Radiation Island",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "927350422": {
+    "name": "Tallowmere",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "map": true,
+    "multi": true
+  },
+  "928945016": {
+    "name": "Causality",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "932248553": {
+    "name": "Piloteer",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "933189224": {
+    "name": "Astrå",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "ends": true
+  },
+  "933350763": {
+    "name": "Flewn",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "935201107": {
+    "name": "Dwelp",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "935216956": {
+    "name": "Papers, Please",
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "940249281": {
+    "name": "Halo: Spartan Strike",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "941057494": {
+    "name": "Love You to Bits",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "941380906": {
+    "name": "Steven Universe: Attack the Light",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "945118056": {
+    "name": "Combo Quest",
+    "phone": true,
+    "pad": true
+  },
+  "948857526": {
+    "name": "Transistor",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "950812012": {
+    "name": "Alto’s Adventure",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true
+  },
+  "950955524": {
+    "name": "Card Crawl",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "951177560": {
+    "name": "Dark Echo",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "952929696": {
+    "name": "Furdemption",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "956251102": {
+    "name": "Le Parker",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "956794130": {
+    "name": "Hook",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "958604518": {
+    "name": "Lumino City",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
+  "960744514": {
+    "name": "The Mesh",
+    "phone": true,
+    "pad": true
+  },
+  "963093508": {
+    "name": "Dragon Hills",
+    "phone": true,
+    "pad": true,
+    "cloud": true
+  },
+  "967624193": {
+    "name": "Noodles",
+    "phone": true,
+    "pad": true
+  },
+  "968666100": {
+    "name": "Super Happy Fun Block",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "969961138": {
+    "name": "HoPiKo",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "970202342": {
+    "name": "Solitairica",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
+  "970421850": {
+    "name": "Rop",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "971304016": {
+    "name": "Lara Croft GO",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "ends": true
+  },
+  "972319818": {
+    "name": "Prune",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "972488901": {
+    "name": "Onion Force",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "972657175": {
+    "name": "Severed",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
+  "974599171": {
+    "name": "Mimpi Dreams",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "mfi": true,
+    "ends": true
+  },
+  "980132410": {
+    "name": "To-Fu Fury",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "981035758": {
+    "name": "Neon Chrome",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "982175678": {
+    "name": "This War of Mine",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
+  "982354972": {
+    "name": "Lifeline",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "982763237": {
+    "name": "Hyperburner",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "982805507": {
+    "name": "ha·mo·ny 3",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "983633516": {
+    "name": "Quell Memento+",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "ends": true
+  },
+  "988634008": {
+    "name": "Tilt: Quill’s Quandry",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "989148225": {
+    "name": "Air Supremacy",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1001248922": {
+    "name": "Oddworld: Munch's Oddysee",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1005098334": {
+    "name": "Human Resource Machine",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1007120869": {
+    "name": "BADLAND 2",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1008719508": {
+    "name": "Shadow Bug",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1011541203": {
+    "name": "Skeletomb",
+    "phone": true,
+    "pad": true,
+    "mfi": true
+  },
+  "1011987577": {
+    "name": "Sputnik Eyes",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1012298403": {
+    "name": "Don’t Starve",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1014505645": {
+    "name": "The Deer God",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1017367213": {
+    "name": "Octodad",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "multi": true
+  },
+  "1020481008": {
+    "name": "Deus Ex GO",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "ends": true
+  },
+  "1020962158": {
+    "name": "Dust",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1024505111": {
+    "name": "Cut the Rope",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "1024640405": {
+    "name": "Devastator",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1029307569": {
+    "name": "Starseed Origin",
+    "phone": true,
+    "mfi": true
+  },
+  "1030548464": {
+    "name": "Hocus",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1031530508": {
+    "name": "Telepaint",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1032708262": {
+    "name": "Downwell",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1033873301": {
+    "name": "Super Sharp",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "1034773723": {
+    "name": "Power Hover",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1035217840": {
+    "name": "The Sequence",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1035454689": {
+    "name": "DAK",
+    "phone": true,
+    "pad": true,
+    "mfi": true
+  },
+  "1041808803": {
+    "name": "Beat Stomper",
+    "phone": true,
+    "pad": true
+  },
+  "1041873285": {
+    "name": "Super Phantom Cat",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1046617847": {
+    "name": "Pull My Tongue",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1047862647": {
+    "name": "Theseus Plus",
+    "phone": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1049346332": {
+    "name": "Mechanic Escape",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1059879206": {
+    "name": "Momoka",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1064093693": {
+    "name": "Illi",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1068416637": {
+    "name": "Zenge",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1069549814": {
+    "name": "The Binding of Isaac",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1071154495": {
+    "name": "Drop Flip",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "1071739737": {
+    "name": "Return of the Zombie King",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "1072737282": {
+    "name": "Space Marshals 2",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1074889855": {
+    "name": "Lost Socks",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1075820557": {
+    "name": "Super Arc Light",
+    "phone": true,
+    "pad": true
+  },
+  "1076402133": {
+    "name": "Colorcube",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "ends": true
+  },
+  "1079464948": {
+    "name": "Mekorama",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1081847121": {
+    "name": "Inks",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "1084537215": {
+    "name": "ATOMINE",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1084860489": {
+    "name": "Chameleon Run",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1085123968": {
+    "name": "Crypt of the Necro Dancer",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true,
+    "multi": true
+  },
+  "1087286731": {
+    "name": "Warp Shift",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1090133581": {
+    "name": "Oddworld: New ‘n Tasty",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1090292301": {
+    "name": "Yankai’s Triangle",
+    "phone": true,
+    "pad": true
+  },
+  "1090552213": {
+    "name": "The Bug Butcher",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1090577736": {
+    "name": "Riptide Renegade",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "multi": true
+  },
+  "1092276838": {
+    "name": "Pixel Cup 16",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "mfi": true
+  },
+  "1094429166": {
+    "name": "Lifeline: Whiteout",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1095781221": {
+    "name": "Vectradius",
+    "phone": true
+  },
+  "1100330715": {
+    "name": "Vignettes",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "1104805847": {
+    "name": "OK Golf",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "multi": true
+  },
+  "1105390093": {
+    "name": "Klocki",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1107320261": {
+    "name": "Splitter Critters",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "1108475553": {
+    "name": "Jade Empire",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1109024890": {
+    "name": "Legend of the Skyfish",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1112532917": {
+    "name": "Perchang",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1112963359": {
+    "name": "Forma.8 GO",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1114127463": {
+    "name": "Reigns",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "1114594263": {
+    "name": "Heroes of Loot 2",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1116808304": {
+    "name": "Nightgate",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "ends": true
+  },
+  "1117166919": {
+    "name": "Atomik",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "1118513354": {
+    "name": "Kingdom: New Lands",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1123828832": {
+    "name": "Slayaway Camp",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1125093361": {
+    "name": "Morphite",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1132539563": {
+    "name": "Linia",
+    "phone": true,
+    "pad": true,
+    "cloud": true
+  },
+  "1133544923": {
+    "name": "Hidden Folks",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
+  "1136744871": {
+    "name": "Party Hard Go",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "1145738671": {
+    "name": "Eggggg",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1148435076": {
+    "name": "Roofbot",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "1157484554": {
+    "name": "Starman",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "1168013926": {
+    "name": "Dandara",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1171040772": {
+    "name": "Reigns: Her Majesty",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "ends": true
+  },
+  "1178119895": {
+    "name": "After the End",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1179177872": {
+    "name": "Oxenfree",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "1181212221": {
+    "name": "Euclidean Lands",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "1182456409": {
+    "name": "Alto’s Odyssey",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1186226470": {
+    "name": "Card Thief",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "1187265767": {
+    "name": "Monument Valley 2",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "1193911528": {
+    "name": "Mushroom 11",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
+  "1199831446": {
+    "name": "Darkest Dungeon",
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
+  "1200231665": {
+    "name": "Zero Sum",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1200864554": {
+    "name": "SPACEPLAN",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "1201642309": {
+    "name": "Inside",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1204902987": {
+    "name": "Old Man’s Journey",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "1209489068": {
+    "name": "Fez",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1210234523": {
+    "name": "Star Cat Adventure",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1212865798": {
+    "name": "Time Recoil",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1214627433": {
+    "name": "Meganoid",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1215302198": {
+    "name": "Subdivision Infinity",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1221749074": {
+    "name": "Where Shadows Slumber",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "1226277306": {
+    "name": "Campfire Cooking",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "1230231705": {
+    "name": "The Witness",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1241343774": {
+    "name": "The Scrungeon Depths",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "map": true
+  },
+  "1247397901": {
+    "name": "Oddmar",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1250484428": {
+    "name": "The Talos Principle",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1256675328": {
+    "name": "GNOG",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1257416763": {
+    "name": "Push",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1269225754": {
+    "name": "Gorogoa",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "1271620263": {
+    "name": "Icey",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1286676015": {
+    "name": "The Room: Old Sins",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
+  "1287138671": {
+    "name": "Thumper",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
+  "1288535749": {
+    "name": "Feist",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1291427111": {
+    "name": "Evoland 2",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1293337633": {
+    "name": "Suzy Cube",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1296875300": {
+    "name": "Hyperforma",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1297430468": {
+    "name": "Florence",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1317692806": {
+    "name": "Pako 2",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1320681231": {
+    "name": "Bring You Home",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
+  "1332743891": {
+    "name": "Lichtspeer",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1346577165": {
+    "name": "Temple of Spikes",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1348224049": {
+    "name": "Super Hydorah",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1349292121": {
+    "name": "SuperType",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1354786786": {
+    "name": "Umiro",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1357678762": {
+    "name": "Odium: To The Core",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1369179088": {
+    "name": "Grimvalor",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1374372468": {
+    "name": "Teslagrad",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1406382064": {
+    "name": "ELOH",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
+  "1421224576": {
+    "name": "Spitkiss",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "mfi": true,
+    "ends": true
+  }
+}
