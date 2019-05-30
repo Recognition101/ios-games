@@ -1,9 +1,22 @@
 const urls = {
-    itunes: 'https://itunes.apple.com/us/app/',
-    img: './images/'
+    itunes: 'https://itunes.apple.com/us/app/id',
+    img: './images/id'
 };
 
 /**
+ * @typedef {{[id: string]: SerializedGame}} SerializedGames
+ *
+ * @typedef {Object} SerializedGame
+ * @prop {string} name
+ * @prop {boolean} [phone]
+ * @prop {boolean} [pad]
+ * @prop {boolean} [tv]
+ * @prop {boolean} [cloud]
+ * @prop {boolean} [mfi]
+ * @prop {boolean} [ends]
+ * @prop {boolean} [map]
+ * @prop {boolean} [multi]
+ *
  * @typedef {Object} Game
  * @prop {string} name
  * @prop {string} id
@@ -164,26 +177,22 @@ const createFilter = (games, featureNames) => {
 
 /**
  * Sets up the application.
- * @param {string} csvText the text of the CSV games file
+ * @param {SerializedGames} json the JSON data for all the games
  */
-const main = csvText => {
-    const isTextTrue = v => v.toLocaleLowerCase() === 'true';
-
-    const csv = csvText.split('\n').map(line =>
-        line.match(/"[^"]*"|[^,]+/g)
-            .map(item => item.replace(/^"|"$/g, ''))
-    );
-
-    const key = csv.shift();
-    const featureNames = key.slice(1, -1);
+const main = json => {
+    const featureNames = ['📱', '💻', '🖥', '☁️', '🎮', '🏁', '🗺', '👥'];
 
     /** @type {Array<Game>} */
-    const games = csv.map(row => {
-        const name      = row[0];
-        const id        = row[row.length - 1];
+    const games = Object.keys(json).map(id => {
+        const game      = json[id];
+        const name      = game.name;
         const itunesUrl = urls.itunes + id;
         const imgUrl    = urls.img + id + '.jpg';
-        const features  = row.slice(1, -1).map(isTextTrue);
+        const features  = [
+            Boolean(game.phone), Boolean(game.pad), Boolean(game.tv),
+            Boolean(game.cloud), Boolean(game.mfi), Boolean(game.ends),
+            Boolean(game.map), Boolean(game.multi)
+        ];
 
         return { id, name, itunesUrl, imgUrl, features };
     });
@@ -205,6 +214,6 @@ const main = csvText => {
     folders.appendChild(createFilter(games, featureNames));
 };
 
-fetch('./data.csv')
-    .then(resp => resp.text())
+fetch('./data.json')
+    .then(resp => resp.json())
     .then(main);
