@@ -1826,6 +1826,13 @@
     "ends": true,
     "map": true
   },
+  "1296646396": {
+    "name": "Chuchel",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
   "1296875300": {
     "name": "Hyperforma",
     "phone": true,
@@ -1908,6 +1915,14 @@
     "ends": true,
     "map": true
   },
+  "1371965583": {
+    "name": "The Gardens Between",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
   "1374372468": {
     "name": "Teslagrad",
     "phone": true,
@@ -1940,6 +1955,14 @@
     "mfi": true,
     "ends": true
   },
+  "1436190913": {
+    "name": "Black Paradox",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
   "1445623416": {
     "name": "NecroDancer: AMPLIFIED",
     "phone": true,
@@ -1949,5 +1972,22 @@
     "ends": true,
     "map": true,
     "multi": true
+  },
+  "1453189467": {
+    "name": "Rogue Legacy",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1453875289": {
+    "name": "Hyper Light Drifter",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
   }
 }
