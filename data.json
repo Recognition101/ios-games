@@ -1880,6 +1880,12 @@
     "mfi": true,
     "ends": true
   },
+  "1348135354": {
+    "name": "Valleys Between",
+    "phone": true,
+    "pad": true,
+    "cloud": true
+  },
   "1348224049": {
     "name": "Super Hydorah",
     "phone": true,
@@ -1933,6 +1939,15 @@
     "ends": true,
     "map": true
   },
+  "1389752090": {
+    "name": "Dead Cells",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
   "1396301917": {
     "name": "The Company Game",
     "phone": true,
@@ -1959,6 +1974,15 @@
     "name": "Black Paradox",
     "phone": true,
     "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1445379072": {
+    "name": "Gris",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
     "mfi": true,
     "ends": true,
     "map": true
