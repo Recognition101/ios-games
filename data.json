@@ -2004,6 +2004,15 @@
     "ends": true,
     "map": true
   },
+  "1445593893": {
+    "name": "Journey",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
   "1445623416": {
     "name": "NecroDancer: AMPLIFIED",
     "phone": true,
