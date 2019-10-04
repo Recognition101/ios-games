@@ -1351,6 +1351,16 @@
     "pad": true,
     "ends": true
   },
+  "1088111993": {
+    "name": "Pavilion",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
   "1090133581": {
     "name": "Oddworld: New ‘n Tasty",
     "phone": true,
@@ -1968,6 +1978,13 @@
     "pad": true,
     "tv": true,
     "mfi": true,
+    "ends": true
+  },
+  "1425793639": {
+    "name": "SNIKS",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
     "ends": true
   },
   "1436190913": {
