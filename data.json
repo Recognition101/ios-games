@@ -1635,6 +1635,12 @@
     "cloud": true,
     "ends": true
   },
+  "1192689055": {
+    "name": "Alphaputt",
+    "phone": true,
+    "pad": true,
+    "multi": true
+  },
   "1193911528": {
     "name": "Mushroom 11",
     "phone": true,
@@ -1858,6 +1864,13 @@
     "pad": true,
     "ends": true
   },
+  "1309000429": {
+    "name": "Ordia",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
   "1317692806": {
     "name": "Pako 2",
     "phone": true,
@@ -1964,6 +1977,14 @@
     "ends": true,
     "map": true
   },
+  "1403550875": {
+    "name": "Minit",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
   "1406382064": {
     "name": "ELOH",
     "phone": true,
@@ -1995,6 +2016,14 @@
     "ends": true,
     "map": true
   },
+  "1439886655": {
+    "name": "Cultist Simulator",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
   "1445379072": {
     "name": "Gris",
     "phone": true,
@@ -2022,6 +2051,27 @@
     "ends": true,
     "map": true,
     "multi": true
+  },
+  "1449739727": {
+    "name": "Magnibox",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1450850805": {
+    "name": "The Swords of Ditto",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1450851181": {
+    "name": "Witcheye",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
   },
   "1453189467": {
     "name": "Rogue Legacy",
