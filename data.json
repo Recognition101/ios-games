@@ -30,6 +30,33 @@
     "pad": true,
     "tv": true
   },
+  "419805412": {
+    "name": "Marathon",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true,
+    "multi": true
+  },
+  "421697209": {
+    "name": "Marathon: Durandal",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true,
+    "multi": true
+  },
+  "422775548": {
+    "name": "Marathon: Infinity",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true,
+    "multi": true
+  },
   "424912055": {
     "name": "Superbrothers: Sword & Sworcery EP",
     "phone": true,
@@ -1830,6 +1857,14 @@
     "tv": true,
     "cloud": true,
     "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1292099839": {
+    "name": "Donut County",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
     "ends": true,
     "map": true
   },
