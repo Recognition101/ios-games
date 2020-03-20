@@ -1223,6 +1223,14 @@
     "pad": true,
     "mfi": true
   },
+  "1040930654": {
+    "name": "A Good Snowman Is Hard to Build",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
   "1041808803": {
     "name": "Beat Stomper",
     "phone": true,
@@ -1988,6 +1996,16 @@
     "pad": true,
     "ends": true
   },
+  "1356770278": {
+    "name": "Absolute Drift",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
   "1357678762": {
     "name": "Odium: To The Core",
     "phone": true,
@@ -2021,12 +2039,26 @@
     "ends": true,
     "map": true
   },
+  "1383938095": {
+    "name": "Card Crusade",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "1389752090": {
     "name": "Dead Cells",
     "phone": true,
     "pad": true,
     "cloud": true,
     "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1392948321": {
+    "name": "Photographs",
+    "phone": true,
+    "pad": true,
     "ends": true,
     "map": true
   },
@@ -2148,5 +2180,29 @@
     "mfi": true,
     "ends": true,
     "map": true
+  },
+  "1458791714": {
+    "name": "Daggerhood",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1468871893": {
+    "name": "Cursed Castilla",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1491515169": {
+    "name": "Unitied",
+    "phone": true,
+    "pad": true,
+    "ends": true
   }
 }
