@@ -1,12 +1,36 @@
-body { margin: 0; }
-* {
+html {
+    /* @see https://developer.apple.com/
+     * design/human-interface-guidelines/ios/visual-design/color/ */
+    --color-background: #FFF;
+    --color-text: #000;
+    --color-link: rgb(0, 122, 255);
+    --color-highlight-strong: rgb(209, 209, 214);
+    --color-highlight-weak: rgb(229, 229, 234);
+    --color-highlight-weak-alpha: rgb(229, 229, 234, 0.8);
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        --color-background: #000;
+        --color-text: rgb(240, 240, 240);
+        --color-link: rgb(10, 132, 255);
+        --color-highlight-strong: rgb(58, 58, 60);
+        --color-highlight-weak: rgb(44, 44, 46);
+        --color-highlight-weak-alpha: rgb(44, 44, 46, 0.8);
+    }
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-background);
+    color: var(--color-text);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-               Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
-               "Segoe UI Emoji", "Segoe UI Symbol";
+        Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol";
 }
 a {
     text-decoration: none;
-    color: rgb(0, 122, 255);
+    color: var(--color-link);
 }
 
 h1 {
@@ -40,7 +64,7 @@ h3 {
     text-align: center;
 }
 .games-key td {
-    border: 1px solid #CCC;
+    border: 1px solid var(--color-highlight-strong);
     padding: 5px;
 }
 
@@ -49,7 +73,7 @@ h3 {
     margin: 40px;
     padding: 10px;
 
-    background-color: #EEE;
+    background-color: var(--color-highlight-weak);
     border-radius: 20px;
 }
 
@@ -59,7 +83,7 @@ h3 {
     top: 0;
     left: 0;
 
-    background-color: rgba(238, 238, 238, 0.8);
+    background-color: var(--color-highlight-weak-alpha);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     font-size: 40px;
@@ -99,7 +123,7 @@ h3 {
     width: 100%;
     height: 60px;
 
-    border: 1px solid #CCC;
+    border: 1px solid var(--color-highlight-strong);
     border-radius: 10px;
     background-color: white;
     pointer-events: none;
@@ -131,7 +155,7 @@ h3 {
 }
 
 .games-filter h3 {
-    border-top: 1px solid #FFF;
+    border-top: 1px solid var(--color-highlight-strong);
     padding-top: 18px;
 }
 
@@ -209,13 +233,14 @@ h3 {
     border-width: 10px;
     margin-left: -10px;
 
-    border-color: rgba(0, 0, 0, 0);
-    border-top-color: #fff;
+    border-color: transparent;
+    border-top-color: var(--color-highlight-strong);
 }
 .games-list-features:before {
     border-width: 11px;
     margin-left: -11px;
 
-    border-color: rgba(0, 0, 0, 0);
-    border-top-color: #CCC;
+    border-color: transparent;
+    border-top-color: var(--color-highlight-strong);
 }
+
