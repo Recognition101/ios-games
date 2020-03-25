@@ -1891,6 +1891,7 @@
     "phone": true,
     "pad": true,
     "cloud": true,
+    "mfi": true,
     "ends": true
   },
   "1288535749": {
