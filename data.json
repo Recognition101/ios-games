@@ -13,6 +13,12 @@
     "ends": true,
     "map": true
   },
+  "392492258": {
+    "name": "Spirits",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
   "396409104": {
     "name": "A.C.E.S.",
     "phone": true,
@@ -1466,6 +1472,12 @@
     "name": "Vectradius",
     "phone": true
   },
+  "1096895720": {
+    "name": "Ocmo",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
   "1100330715": {
     "name": "Vignettes",
     "phone": true,
@@ -1861,6 +1873,13 @@
     "ends": true,
     "map": true
   },
+  "1269922212": {
+    "name": "Meteorfall",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "1271620263": {
     "name": "Icey",
     "phone": true,
@@ -2233,6 +2252,13 @@
     "mfi": true,
     "ends": true,
     "map": true
+  },
+  "1458296566": {
+    "name": "Jumpgrid",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
   },
   "1458791714": {
     "name": "Daggerhood",
