@@ -1075,6 +1075,15 @@
     "cloud": true,
     "ends": true
   },
+  "988799702": {
+    "name": "Fractal Space",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
   "989148225": {
     "name": "Air Supremacy",
     "phone": true,
@@ -1307,6 +1316,14 @@
     "phone": true,
     "pad": true,
     "ends": true
+  },
+  "1065334252": {
+    "name": "Earth Atlantis",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
   },
   "1068416637": {
     "name": "Zenge",
@@ -1632,6 +1649,14 @@
     "mfi": true,
     "ends": true
   },
+  "1148385289": {
+    "name": "Cat Quest",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
   "1148435076": {
     "name": "Roofbot",
     "phone": true,
@@ -1675,6 +1700,13 @@
   },
   "1179177872": {
     "name": "Oxenfree",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "1181038779": {
+    "name": "Sara Is Missing",
     "phone": true,
     "pad": true,
     "ends": true,
@@ -1843,6 +1875,13 @@
     "phone": true,
     "pad": true,
     "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1252035454": {
+    "name": "Simulacra",
+    "phone": true,
+    "pad": true,
     "ends": true,
     "map": true
   },
@@ -2131,6 +2170,13 @@
     "ends": true,
     "map": true
   },
+  "1404253683": {
+    "name": "Euclidean Skies",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
   "1406382064": {
     "name": "ELOH",
     "phone": true,
@@ -2194,6 +2240,13 @@
     "ends": true,
     "map": true
   },
+  "1445511903": {
+    "name": "She and the Light Bearer",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "1445593893": {
     "name": "Journey",
     "phone": true,
@@ -2212,6 +2265,14 @@
     "ends": true,
     "map": true,
     "multi": true
+  },
+  "1446725273": {
+    "name": "Holy Potatoes! A Spy Story?!",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
   },
   "1449739727": {
     "name": "Magnibox",
@@ -2253,6 +2314,13 @@
     "ends": true,
     "map": true
   },
+  "1457675789": {
+    "name": "Alt-Frequencies",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "1458296566": {
     "name": "Jumpgrid",
     "phone": true,
@@ -2277,6 +2345,13 @@
     "mfi": true,
     "ends": true,
     "map": true
+  },
+  "1471319253": {
+    "name": "Takoway",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
   },
   "1491515169": {
     "name": "Unitied",
