@@ -808,6 +808,7 @@
     "phone": true,
     "pad": true,
     "cloud": true,
+    "mfi": true,
     "ends": true
   },
   "932248553": {
@@ -839,6 +840,15 @@
   "935216956": {
     "name": "Papers, Please",
     "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "940006911": {
+    "name": "Agent A",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "mfi": true,
     "ends": true,
     "map": true
   },
@@ -2106,6 +2116,14 @@
     "pad": true,
     "ends": true
   },
+  "1367121168": {
+    "name": "Bad North",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
   "1369179088": {
     "name": "Grimvalor",
     "phone": true,
@@ -2231,6 +2249,12 @@
     "ends": true,
     "map": true
   },
+  "1442420788": {
+    "name": "Pipe Push Paradise",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
   "1445379072": {
     "name": "Gris",
     "phone": true,
@@ -2300,6 +2324,14 @@
     "phone": true,
     "pad": true,
     "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1453808408": {
+    "name": "Juicy Realm",
+    "phone": true,
+    "pad": true,
     "mfi": true,
     "ends": true,
     "map": true
