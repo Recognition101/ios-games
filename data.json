@@ -794,6 +794,13 @@
     "ends": true,
     "map": true
   },
+  "924691770": {
+    "name": "Lost Portal",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "927350422": {
     "name": "Tallowmere",
     "phone": true,
@@ -2368,6 +2375,14 @@
     "ends": true,
     "map": true
   },
+  "1466990204": {
+    "name": "Repulsive",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
   "1468871893": {
     "name": "Cursed Castilla",
     "phone": true,
@@ -2390,5 +2405,12 @@
     "phone": true,
     "pad": true,
     "ends": true
+  },
+  "1491530147": {
+    "name": "Slay the Spire",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
   }
 }
