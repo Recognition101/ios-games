@@ -1196,6 +1196,13 @@
     "ends": true,
     "map": true
   },
+  "1023094578": {
+    "name": "Help! I'm Haunted",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
+  },
   "1024505111": {
     "name": "Cut the Rope",
     "phone": true,
@@ -1681,6 +1688,13 @@
     "cloud": true,
     "ends": true
   },
+  "1152474226": {
+    "name": "Cosmic Express",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
+  },
   "1157484554": {
     "name": "Starman",
     "phone": true,
@@ -2074,6 +2088,12 @@
     "ends": true,
     "map": true
   },
+  "1341831522": {
+    "name": "Vandals",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
   "1346577165": {
     "name": "Temple of Spikes",
     "phone": true,
@@ -2201,6 +2221,15 @@
     "pad": true,
     "cloud": true,
     "ends": true
+  },
+  "1404294932": {
+    "name": "Lovecraft's Untold Stories",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
   },
   "1406382064": {
     "name": "ELOH",
@@ -2400,6 +2429,21 @@
     "cloud": true,
     "ends": true
   },
+  "1476360841": {
+    "name": "Cecconoid",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1479162134": {
+    "name": "Song of Bloom",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "1491515169": {
     "name": "Unitied",
     "phone": true,
@@ -2412,5 +2456,14 @@
     "pad": true,
     "ends": true,
     "map": true
+  },
+  "1497887150": {
+    "name": "Door Kickers: Action Squad",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "multi": false
   }
 }
