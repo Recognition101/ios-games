@@ -1275,6 +1275,14 @@
     "pad": true,
     "mfi": true
   },
+  "1037285648": {
+    "name": "Ticket to Earth",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
   "1040930654": {
     "name": "A Good Snowman Is Hard to Build",
     "phone": true,
@@ -2254,6 +2262,12 @@
     "cloud": true,
     "ends": true
   },
+  "1425915725": {
+    "name": "Persephone",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
   "1434308550": {
     "name": "Rolando: Royal Edition",
     "phone": true,
@@ -2444,6 +2458,15 @@
     "ends": true,
     "map": true
   },
+  "1490196582": {
+    "name": "The Unfinished Swan",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
   "1491515169": {
     "name": "Unitied",
     "phone": true,
@@ -2454,6 +2477,14 @@
     "name": "Slay the Spire",
     "phone": true,
     "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "1496612088": {
+    "name": "The Almost Gone",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
     "ends": true,
     "map": true
   },
