@@ -1343,6 +1343,13 @@
     "ends": true,
     "map": true
   },
+  "1059911569": {
+    "name": "Rusty Lake Hotel",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "1064093693": {
     "name": "Illi",
     "phone": true,
@@ -1709,6 +1716,13 @@
     "pad": true,
     "ends": true,
     "map": true
+  },
+  "1159600645": {
+    "name": "Towaga",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
   },
   "1168013926": {
     "name": "Dandara",
@@ -2348,6 +2362,14 @@
     "ends": true,
     "map": true
   },
+  "1447337759": {
+    "name": "Interloper",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true
+  },
   "1449739727": {
     "name": "Magnibox",
     "phone": true,
@@ -2391,6 +2413,15 @@
     "phone": true,
     "pad": true,
     "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1455087110": {
+    "name": "Moonlighter",
+    "phone": true,
+    "pad": true,
     "cloud": true,
     "mfi": true,
     "ends": true,
@@ -2458,6 +2489,21 @@
     "ends": true,
     "map": true
   },
+  "1483051049": {
+    "name": "SteamWorld Quest",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "1489491274": {
+    "name": "Iris and the Giant",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
   "1490196582": {
     "name": "The Unfinished Swan",
     "phone": true,
@@ -2499,6 +2545,13 @@
   },
   "1499642327": {
     "name": "Arrog",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "1561324007": {
+    "name": "Samorost 1",
     "phone": true,
     "pad": true,
     "ends": true,
