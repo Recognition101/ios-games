@@ -2474,6 +2474,13 @@
     "cloud": true,
     "ends": true
   },
+  "1473480040": {
+    "name": "NABOKI",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "1476360841": {
     "name": "Cecconoid",
     "phone": true,
