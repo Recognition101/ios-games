@@ -1685,6 +1685,7 @@
     "phone": true,
     "pad": true,
     "tv": true,
+    "cloud": true,
     "mfi": true,
     "ends": true
   },
