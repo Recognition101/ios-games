@@ -1534,6 +1534,12 @@
     "pad": true,
     "ends": true
   },
+  "1098156659": {
+    "name": "Reky",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
   "1100330715": {
     "name": "Vignettes",
     "phone": true,
@@ -1907,6 +1913,13 @@
     "mfi": true,
     "ends": true,
     "map": true
+  },
+  "1234617736": {
+    "name": "Frost",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true
   },
   "1241343774": {
     "name": "The Scrungeon Depths",
@@ -2522,6 +2535,17 @@
     "ends": true,
     "map": true
   },
+  "1488674076": {
+    "name": "Summer Catchers",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true,
+    "multi": true
+  },
   "1489491274": {
     "name": "Iris and the Giant",
     "phone": true,
@@ -2585,12 +2609,32 @@
     "ends": true,
     "map": true
   },
+  "1517314283": {
+    "name": "Cards!",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "1517566159": {
     "name": "Tales of the Neon Sea",
     "phone": true,
     "pad": true,
     "ends": true,
     "map": true
+  },
+  "1547164915": {
+    "name": "Psychofunk",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
+  "1555490424": {
+    "name": "Ponpu",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
   },
   "1561324007": {
     "name": "Samorost 1",
