@@ -2453,6 +2453,14 @@
     "ends": true,
     "map": true
   },
+  "1455088996": {
+    "name": "BattleChasers: Nightwar",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
   "1457675789": {
     "name": "Alt-Frequencies",
     "phone": true,
