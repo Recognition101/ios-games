@@ -656,12 +656,6 @@
     "pad": true,
     "ends": true
   },
-  "893923668": {
-    "name": "Dungeon of the Endless",
-    "pad": true,
-    "ends": true,
-    "map": true
-  },
   "895726517": {
     "name": "GREG",
     "phone": true,
@@ -2620,6 +2614,14 @@
     "name": "Tales of the Neon Sea",
     "phone": true,
     "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "1526466468": {
+    "name": "Dungeon of the Endless: Apogee",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
     "ends": true,
     "map": true
   },
