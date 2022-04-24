@@ -544,6 +544,12 @@
     "pad": true,
     "cloud": true
   },
+  "848515450": {
+    "name": "Alone",
+    "phone": true,
+    "pad": true,
+    "cloud": true
+  },
   "849095637": {
     "name": "Thomas Was Alone",
     "phone": true,
@@ -2122,6 +2128,13 @@
     "name": "Vandals",
     "phone": true,
     "pad": true,
+    "ends": true
+  },
+  "1343246862": {
+    "name": "Hexologic",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
     "ends": true
   },
   "1346577165": {
