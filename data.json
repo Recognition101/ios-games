@@ -1561,6 +1561,7 @@
     "name": "Klocki",
     "phone": true,
     "pad": true,
+    "cloud": true,
     "ends": true
   },
   "1107320261": {
@@ -2525,6 +2526,7 @@
     "name": "NABOKI",
     "phone": true,
     "pad": true,
+    "cloud": true,
     "ends": true,
     "map": true
   },
