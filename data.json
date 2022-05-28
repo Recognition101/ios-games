@@ -942,6 +942,7 @@
     "name": "Hook",
     "phone": true,
     "pad": true,
+    "cloud": true,
     "ends": true
   },
   "958604518": {
