@@ -140,6 +140,12 @@
     "ends": true,
     "map": true
   },
+  "482086528": {
+    "name": "These Robotic Hearts of Mine",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
   "493536432": {
     "name": "Hundreds",
     "phone": true,
@@ -469,6 +475,11 @@
     "tv": true,
     "cloud": true,
     "ends": true
+  },
+  "779157948": {
+    "name": "Threes!",
+    "phone": true,
+    "pad": true
   },
   "789356890": {
     "name": "AG Drive",
@@ -1656,6 +1667,13 @@
     "pad": true,
     "ends": true
   },
+  "1124453989": {
+    "name": "Bulb Boy",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "1125093361": {
     "name": "Morphite",
     "phone": true,
@@ -1823,6 +1841,12 @@
     "cloud": true,
     "ends": true,
     "map": true
+  },
+  "1200202714": {
+    "name": "See/Saw",
+    "phone": true,
+    "pad": true,
+    "ends": true
   },
   "1200231665": {
     "name": "Zero Sum",
@@ -2451,6 +2475,12 @@
     "ends": true,
     "map": true
   },
+  "1454045529": {
+    "name": "Neonimo",
+    "phone": true,
+    "pad": true,
+    "multi": true
+  },
   "1454799373": {
     "name": "Figment",
     "phone": true,
@@ -2506,6 +2536,12 @@
     "ends": true,
     "map": true
   },
+  "1468115950": {
+    "name": "Inbento",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
   "1468871893": {
     "name": "Cursed Castilla",
     "phone": true,
@@ -2522,6 +2558,13 @@
     "pad": true,
     "cloud": true,
     "ends": true
+  },
+  "1472184189": {
+    "name": "The White Door",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
   },
   "1473480040": {
     "name": "NABOKI",
@@ -2552,6 +2595,13 @@
     "pad": true,
     "ends": true,
     "map": true
+  },
+  "1485290098": {
+    "name": "Fait",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
   },
   "1488674076": {
     "name": "Summer Catchers",
@@ -2641,6 +2691,14 @@
     "ends": true,
     "map": true
   },
+  "1524841987": {
+    "name": "The First Tree",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
   "1526466468": {
     "name": "Dungeon of the Endless: Apogee",
     "phone": true,
@@ -2648,6 +2706,15 @@
     "cloud": true,
     "ends": true,
     "map": true
+  },
+  "1538607724": {
+    "name": "Chicken Police",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true,
+    "mfi": true
   },
   "1547164915": {
     "name": "Psychofunk",
