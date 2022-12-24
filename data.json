@@ -1530,6 +1530,13 @@
     "tv": true,
     "mfi": true
   },
+  "1093396572": {
+    "name": "Steamworld: Heist",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "1094429166": {
     "name": "Lifeline: Whiteout",
     "phone": true,
@@ -2448,6 +2455,13 @@
     "ends": true,
     "map": true
   },
+  "1451174691": {
+    "name": "Truberbrook",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "1453189467": {
     "name": "Rogue Legacy",
     "phone": true,
@@ -2707,6 +2721,13 @@
     "ends": true,
     "map": true
   },
+  "1537593277": {
+    "name": "Embracelet",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "1538607724": {
     "name": "Chicken Police",
     "phone": true,
@@ -2721,6 +2742,15 @@
     "phone": true,
     "pad": true,
     "ends": true
+  },
+  "1553922886": {
+    "name": "Sparklite",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
   },
   "1555490424": {
     "name": "Ponpu",
