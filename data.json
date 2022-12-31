@@ -252,6 +252,11 @@
     "phone": true,
     "pad": true
   },
+  "582153229": {
+    "name": "Cook, Serve, Delicious!",
+    "pad": true,
+    "ends": true
+  },
   "584927317": {
     "name": "Warbits",
     "phone": true,
@@ -1765,6 +1770,13 @@
     "tv": true,
     "cloud": true,
     "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1170852506": {
+    "name": "Abi: A Robot’s Tale",
+    "phone": true,
+    "pad": true,
     "ends": true,
     "map": true
   },
