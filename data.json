@@ -2219,6 +2219,13 @@
     "pad": true,
     "ends": true
   },
+  "1360612727": {
+    "name": "Distraint: Deluxe Edition",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "1367121168": {
     "name": "Bad North",
     "phone": true,
@@ -2542,6 +2549,13 @@
     "ends": true,
     "map": true
   },
+  "1464510254": {
+    "name": "Lock’s Quest",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "1466990204": {
     "name": "Repulsive",
     "phone": true,
@@ -2758,6 +2772,15 @@
     "pad": true,
     "mfi": true,
     "ends": true
+  },
+  "1556232084": {
+    "name": "Fury Unleashed",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true,
+    "multi": true
   },
   "1561324007": {
     "name": "Samorost 1",
