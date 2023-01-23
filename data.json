@@ -2453,6 +2453,12 @@
     "cloud": true,
     "mfi": true
   },
+  "1447671288": {
+    "name": "Please, Touch The Artwork",
+    "phone": true,
+    "pad": true,
+    "ends": true
+  },
   "1449739727": {
     "name": "Magnibox",
     "phone": true,
