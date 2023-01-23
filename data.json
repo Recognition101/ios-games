@@ -2747,6 +2747,14 @@
     "ends": true,
     "map": true
   },
+  "1528696908": {
+    "name": "Say No! More",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
   "1537593277": {
     "name": "Embracelet",
     "phone": true,
@@ -2768,6 +2776,15 @@
     "phone": true,
     "pad": true,
     "ends": true
+  },
+  "1552046093": {
+    "name": "Hindsight",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
   },
   "1553922886": {
     "name": "Sparklite",
