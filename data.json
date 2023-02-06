@@ -265,6 +265,13 @@
     "ends": true,
     "multi": true
   },
+  "590250573": {
+    "name": "Little Inferno",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "591696651": {
     "name": "Gesundheit!",
     "phone": true,
