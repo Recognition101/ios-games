@@ -2286,6 +2286,14 @@
     "ends": true,
     "map": true
   },
+  "1377366192": {
+    "name": "Gone Home",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "ends": true,
+    "map": true
+  },
   "1383938095": {
     "name": "Card Crusade",
     "phone": true,
@@ -2730,6 +2738,15 @@
     "name": "Arrog",
     "phone": true,
     "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "1508051949": {
+    "name": "What Remains of Edith Finch",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
     "ends": true,
     "map": true
   },
