@@ -2655,6 +2655,13 @@
     "ends": true,
     "map": true
   },
+  "1479031647": {
+    "name": "Cyber Protocol",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
+  },
   "1479162134": {
     "name": "Song of Bloom",
     "phone": true,
@@ -2865,6 +2872,37 @@
     "name": "Samorost 1",
     "phone": true,
     "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "1587860402": {
+    "name": "Moncage",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
+  "1603486456": {
+    "name": "Chefy-Chef",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1617800007": {
+    "name": "Super Meat Boy Forever",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
+  },
+  "1635093929": {
+    "name": "Down in Bermuda",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
     "ends": true,
     "map": true
   }
