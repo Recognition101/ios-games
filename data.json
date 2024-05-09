@@ -982,6 +982,14 @@
     "phone": true,
     "pad": true
   },
+  "962084488": {
+    "name": "Burly Men At Sea",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "ends": true,
+    "map": true
+  },
   "963093508": {
     "name": "Dragon Hills",
     "phone": true,
@@ -2259,12 +2267,27 @@
     "mfi": true,
     "ends": true
   },
+  "1368013995": {
+    "name": "Dicey Dungeons",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "1369179088": {
     "name": "Grimvalor",
     "phone": true,
     "pad": true,
     "cloud": true,
     "mfi": true,
+    "ends": true,
+    "map": true
+  },
+  "1369611597": {
+    "name": "Krumit’s Tale",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
     "ends": true,
     "map": true
   },
@@ -2702,6 +2725,13 @@
     "ends": true,
     "map": true
   },
+  "1490100895": {
+    "name": "Happy Game",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "1490196582": {
     "name": "The Unfinished Swan",
     "phone": true,
@@ -2828,6 +2858,13 @@
     "map": true,
     "mfi": true
   },
+  "1539778232": {
+    "name": "Afterplace",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "1547164915": {
     "name": "Psychofunk",
     "phone": true,
@@ -2868,6 +2905,15 @@
     "map": true,
     "multi": true
   },
+  "1560172174": {
+    "name": "El Hijo",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true
+  },
   "1561324007": {
     "name": "Samorost 1",
     "phone": true,
@@ -2905,6 +2951,15 @@
     "mfi": true,
     "ends": true
   },
+  "1625083646": {
+    "name": "Endling: Extinctions Is Forever",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
   "1635093929": {
     "name": "Down in Bermuda",
     "phone": true,
@@ -2914,5 +2969,16 @@
     "mfi": true,
     "ends": true,
     "map": true
+  },
+  "1636423328": {
+    "name": "Cat Quest II",
+    "phone": true,
+    "pad": true,
+    "tv": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true,
+    "multi": true
   }
 }
