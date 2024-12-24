@@ -140,6 +140,16 @@
     "ends": true,
     "map": true
   },
+  "479516143": {
+    "name": "Minecraft",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true,
+    "multi": true
+  },
   "482086528": {
     "name": "These Robotic Hearts of Mine",
     "phone": true,
@@ -760,6 +770,14 @@
     "pad": true,
     "cloud": true,
     "ends": true
+  },
+  "916957220": {
+    "name": "Steredenn",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
   },
   "917463360": {
     "name": "Geometry Wars",
@@ -2438,6 +2456,13 @@
     "ends": true,
     "map": true
   },
+  "1438707014": {
+    "name": "The Stillness of the Wind",
+    "phone": true,
+    "pad": true,
+    "ends": true,
+    "map": true
+  },
   "1439886655": {
     "name": "Cultist Simulator",
     "phone": true,
@@ -2880,6 +2905,14 @@
     "ends": true,
     "map": true
   },
+  "1552864378": {
+    "name": "Scourge Bringer",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
+  },
   "1553922886": {
     "name": "Sparklite",
     "phone": true,
@@ -2980,5 +3013,12 @@
     "ends": true,
     "map": true,
     "multi": true
+  },
+  "6478548395": {
+    "name": "The Pinball Wizard",
+    "phone": true,
+    "pad": true,
+    "mfi": true,
+    "ends": true
   }
 }
