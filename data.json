@@ -3020,5 +3020,14 @@
     "pad": true,
     "mfi": true,
     "ends": true
+  },
+  "6502453075": {
+    "name": "Balatro",
+    "phone": true,
+    "pad": true,
+    "cloud": true,
+    "mfi": true,
+    "ends": true,
+    "map": true
   }
 }
