@@ -3,6 +3,6 @@
     "version": "1.0.0",
     "description": "Simple tools used to build ios-games.",
     "dependencies": {
-        "csv-parse": "^4.5.0"
+        "csv-parse": "^7.0.2"
     }
 }
